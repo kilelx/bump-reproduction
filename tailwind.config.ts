@@ -8,11 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "primary-orange": "#f94f40",
+        "beige":"#f6f0cd",
+        "secondary-green": "#10664F",
+        "tertiary-yellow": "#DEEF38"
       },
+      fontFamily: {
+        "clash-display": ['var(--font-clash-display)'],
+      },
+      boxShadow: {
+        "btn": "3px 3px #f6f0cd"
+      }
     },
   },
   plugins: [],
