@@ -16,6 +16,7 @@ const config: Config = {
       },
       fontFamily: {
         "clash-display": ['var(--font-clash-display)'],
+        "gulf-display": ['var(--font-gulf-display)']
       },
       boxShadow: {
         "btn": "3px 3px #f6f0cd"

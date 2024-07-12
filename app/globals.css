@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-shadow {
+    @apply inline-block relative rounded-full font-clash-display shadow-btn;
+}
