@@ -13,7 +13,6 @@ export default function Home() {
           width={0}
           height={0}
           sizes="100vw"
-          // style={{ width: '100%', height: 'auto' }}
           className="fixed top-0 -z-20 object-cover w-full h-full"
         />
         <div className="mx-auto lg:max-w-4xl 2xl:max-w-6xl">
