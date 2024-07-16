@@ -2,8 +2,8 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <header className="container mx-auto sticky top-0 pt-3 z-50">
-      <nav className="flex justify-between items-center">
+    <header className="fixed top-0 left-0 pt-3 z-50 w-full lg:px-6">
+      <nav className="flex mx-auto justify-between items-center px-6">
 
         <p>Logo</p>
 
